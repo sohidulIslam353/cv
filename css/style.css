@@ -1,0 +1,182 @@
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.row-eq-height{
+    display: -webkit-flex;
+    display: -mz-flex;
+    display: flex;
+}
+/* left portion */
+.left{
+    
+}
+.career{
+    
+}
+.glyphicon-background{
+    background: #35879a;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.career h3, .experiences h3, .projects h3, .skills h3{
+    color: #35879a;
+    font-weight: 550;
+    padding: 20px 0px;
+}
+.career p, .experiences p, .projects p{
+    margin-right: 20px;
+}
+.experiences{
+    
+}
+.experiences h4{
+    position: absolute;
+    font-weight: 600;
+}
+.date{
+    float: right;
+    position: relative;
+    font-weight: 600;
+    margin-right: 20px;
+    color: darkgray;
+}
+.experiences h5{
+    clear: both;
+    padding-top: 10px;
+    color: darkgray;
+}
+.experiences p{
+    
+}
+.projects{
+    
+}
+.project-heading{
+    font-weight: 900;
+    color: #35879a
+}
+.project-paragraph{
+    padding-top: 10px;
+    margin-right: 20px;
+}
+.skills{
+    
+}
+.progress_tag p{
+    font-weight: bolder;
+}
+.progress{
+    height: 10px;
+    width: 80%;
+}
+.progress_bar{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.progress-bar{
+    background: #35879a;
+}
+/* right portion */
+.right{
+    padding: 0px;
+    background-color: #42a8c0; 
+
+}
+/* right head part */
+
+.right-head {
+    background-color: #35879a;
+    color: #fff;
+    padding: 20px;
+}
+
+.right-head h2{
+    font-weight: 700;
+}
+
+.right-head h4{
+    background-color: #35879a;
+    color: #fff;
+}
+
+.right-head img {
+    height: 100px;
+    width: 100px;
+}
+
+/* right low part */
+
+.right-low{
+    color: #fff;
+    padding: 10px 0px 10px 15%;
+}
+
+/* right info part */
+
+.info-part{
+    padding-top: 5px;
+}
+.info-part ul{
+    
+}
+.info-part ul li{
+    list-style: none;
+    padding: 5px;
+}
+.info-part ul span{
+    color: #fff;
+    padding-right: 10px;
+    font-size: .9em;
+}
+.info-part ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+/*Education part*/
+
+.education {
+    
+}
+.education h4, .language h4, .interest h4{
+    margin-top: 20px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.education h5{
+    font-weight: 600;
+    font-size: 16px;
+}
+.education p{
+    font-weight: 600;
+    font-size: 16px;
+    color: #b2d8df;
+    padding-bottom: 10px;   
+}
+/* language part */
+.language{
+    font-size: 16px;
+}
+.language p{
+    padding: 5px 0px;
+}
+.language p span{
+    color: #b2d8df;
+}
+/* interest part */
+.interest{
+    
+}
+.interest p{
+    padding: 5px 0px;
+    font-weight: 600;
+    font-size: 15px;
+}
